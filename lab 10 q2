@@ -1,0 +1,5 @@
+def get_count(t):
+    if t is None:
+        return 0
+    else:
+        return 1 + get_count(t.left) + get_count(t.right)
